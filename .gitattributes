@@ -1,0 +1,2 @@
+# Generated interactive map (a large single-file HTML export): exclude from GitHub language statistics
+outputs/figures/network_map.html linguist-generated=true
