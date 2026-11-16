@@ -1,0 +1,183 @@
+{
+  "runtime": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "sqlite": "3.53.1"
+  },
+  "orders": {
+    "status_counts": {
+      "delivered": 96478,
+      "shipped": 1107,
+      "canceled": 625,
+      "unavailable": 609,
+      "invoiced": 314,
+      "processing": 301,
+      "created": 5,
+      "approved": 2
+    },
+    "customers_unique_people": 96096,
+    "orders_without_items": 775,
+    "orders_without_payments": 1,
+    "orders_without_reviews": 768,
+    "review_duplicate_order_excess": 551,
+    "review_duplicate_order_review_pair_excess": 0,
+    "multi_item_orders": 9803,
+    "multi_seller_orders": 1278
+  },
+  "dates": {
+    "order_purchase_timestamp": {
+      "min": "2016-09-04 21:15:19",
+      "max": "2018-10-17 17:30:18",
+      "missing": 0,
+      "invalid_nonmissing": 0
+    },
+    "order_approved_at": {
+      "min": "2016-09-15 12:16:38",
+      "max": "2018-09-03 17:40:06",
+      "missing": 160,
+      "invalid_nonmissing": 0
+    },
+    "order_delivered_carrier_date": {
+      "min": "2016-10-08 10:34:01",
+      "max": "2018-09-11 19:48:28",
+      "missing": 1783,
+      "invalid_nonmissing": 0
+    },
+    "order_delivered_customer_date": {
+      "min": "2016-10-11 13:46:32",
+      "max": "2018-10-17 13:22:46",
+      "missing": 2965,
+      "invalid_nonmissing": 0
+    },
+    "order_estimated_delivery_date": {
+      "min": "2016-09-30 00:00:00",
+      "max": "2018-11-12 00:00:00",
+      "missing": 0,
+      "invalid_nonmissing": 0
+    }
+  },
+  "chronology": {
+    "approval_before_purchase": 0,
+    "carrier_before_purchase": 166,
+    "customer_before_carrier": 23,
+    "delivered_missing_customer_date": 8
+  },
+  "geolocation": {
+    "prefixes": 19015,
+    "lat_min": -36.6053744107061,
+    "lat_max": 45.06593318269697,
+    "lon_min": -101.46676644931476,
+    "lon_max": 121.10539381057764,
+    "outside_global_bounds": 0,
+    "outside_broad_brazil_rectangle": 31,
+    "prefix_multiple_states": 8,
+    "prefix_multiple_city_labels": 8556,
+    "max_rows_per_prefix": 1146,
+    "customers": {
+      "states": [
+        "AC",
+        "AL",
+        "AM",
+        "AP",
+        "BA",
+        "CE",
+        "DF",
+        "ES",
+        "GO",
+        "MA",
+        "MG",
+        "MS",
+        "MT",
+        "PA",
+        "PB",
+        "PE",
+        "PI",
+        "PR",
+        "RJ",
+        "RN",
+        "RO",
+        "RR",
+        "RS",
+        "SC",
+        "SE",
+        "SP",
+        "TO"
+      ],
+      "city_state_labels": 4310,
+      "rows_missing_prefix": 278,
+      "rows_without_screened_prefix_state": 279
+    },
+    "sellers": {
+      "states": [
+        "AC",
+        "AM",
+        "BA",
+        "CE",
+        "DF",
+        "ES",
+        "GO",
+        "MA",
+        "MG",
+        "MS",
+        "MT",
+        "PA",
+        "PB",
+        "PE",
+        "PI",
+        "PR",
+        "RJ",
+        "RN",
+        "RO",
+        "RS",
+        "SC",
+        "SE",
+        "SP"
+      ],
+      "city_state_labels": 636,
+      "rows_missing_prefix": 7,
+      "rows_without_screened_prefix_state": 42
+    }
+  },
+  "scope_2017": {
+    "delivered_orders": 43428,
+    "item_rows": 49556,
+    "states": 27,
+    "sp_orders": 17071,
+    "delivered_missing_delivery_date": 2,
+    "sp_city_state_labels": 531,
+    "missing_raw_prefix_orders": 114,
+    "without_screened_prefix_state_orders": 114,
+    "sp_without_screened_prefix_state_orders": 6,
+    "sp_top10_orders": 9266,
+    "sp_top10_share_of_sp": 0.5427918692519478,
+    "sp_top10_without_screened_geo": 0,
+    "sp_top10_share_of_national": 0.2133646495348623,
+    "sp_top10_excluded_sp_orders": 7805,
+    "no_items": 0
+  },
+  "naive_customer_geo_left_join_rows": 15083733,
+  "naive_item_payment_join": {
+    "rows": 117601.0,
+    "price": 14209115.34
+  },
+  "naive_item_review_join": {
+    "rows": 112372
+  },
+  "item_controls": {
+    "rows": 112650.0,
+    "price": 13591643.7,
+    "freight": 2251909.54
+  },
+  "item_attribute_coverage": {
+    "product_weight_g": 18,
+    "product_length_cm": 18,
+    "product_height_cm": 18,
+    "product_width_cm": 18,
+    "product_category_name": 1603
+  },
+  "untranslated_categories": [
+    "pc_gamer",
+    "portateis_cozinha_e_preparadores_de_alimentos"
+  ],
+  "item_sequence_gaps": 0
+}

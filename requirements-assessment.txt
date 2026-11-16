@@ -1,0 +1,2 @@
+# Audit runtime used: Python 3.12.14; sqlite3 supplied by Python.
+pandas==2.2.3

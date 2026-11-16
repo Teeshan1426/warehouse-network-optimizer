@@ -1,0 +1,44 @@
+candidate_id,state,largest_city_label,demand_rank,orders_modeled,lat,lng,rule
+130,SP,campinas,1,587,-22.904347,-47.082024,top_demand+largest_in_state
+227,RJ,rio de janeiro,2,583,-22.964509,-43.392746,top_demand+largest_in_state
+291,ES,vila velha,5,368,-20.259564,-40.298283,top_demand+largest_in_state
+122,SP,sao jose dos campos,7,296,-23.203883,-45.862322,top_demand
+110,SP,santos,9,288,-23.96307,-46.328557,top_demand
+180,SP,sorocaba,13,252,-23.488467,-47.468481,top_demand
+071,SP,guarulhos,14,249,-23.428332,-46.480559,top_demand
+880,SC,florianopolis,15,247,-27.573289,-48.517566,top_demand+largest_in_state
+892,SC,joinville,17,233,-26.330125,-48.950121,top_demand
+140,SP,ribeirao preto,20,224,-21.177834,-47.801598,top_demand
+384,MG,uberlandia,22,221,-18.862345,-48.300948,top_demand+largest_in_state
+135,SP,sao carlos,26,196,-22.201104,-47.77088,top_demand
+355,MG,divinopolis,27,195,-20.208215,-45.062786,top_demand
+138,SP,sao joao da boa vista,28,187,-22.339229,-46.927881,top_demand
+360,MG,juiz de fora,29,185,-21.754385,-43.361422,top_demand
+883,SC,itajai,34,178,-26.951941,-48.718422,top_demand
+289,RJ,cabo frio,36,176,-22.871784,-42.174105,top_demand
+375,MG,pouso alegre,39,164,-22.307795,-45.874652,top_demand
+650,MA,sao luis,44,158,-2.52952,-44.254535,top_demand+largest_in_state
+351,MG,ipatinga,48,154,-19.437496,-42.518676,top_demand
+301,MG,belo horizonte,49,151,-19.927907,-43.938285,top_demand
+394,MG,montes claros,55,145,-16.440968,-43.894544,top_demand
+858,PR,cascavel,67,136,-25.158615,-53.942203,largest_in_state
+660,PA,belem,71,131,-1.448077,-48.476158,largest_in_state
+490,SE,aracaju,89,117,-10.939488,-37.067174,largest_in_state
+640,PI,teresina,97,112,-5.08447,-42.784459,largest_in_state
+790,MS,campo grande,111,108,-20.477041,-54.603421,largest_in_state
+580,PB,joao pessoa,112,107,-7.133373,-34.850503,largest_in_state
+719,DF,brasilia,114,106,-15.837969,-48.018523,largest_in_state
+900,RS,porto alegre,128,101,-30.034121,-51.223541,largest_in_state
+570,AL,maceio,130,99,-9.626351,-35.732011,largest_in_state
+780,MT,cuiaba,142,95,-15.602199,-56.078685,largest_in_state
+440,BA,feira de santana,152,90,-12.247872,-38.957221,largest_in_state
+768,RO,porto velho,158,84,-9.14384,-63.747125,largest_in_state
+758,GO,jatai,163,83,-18.000242,-51.778236,largest_in_state
+590,RN,natal,170,80,-5.831308,-35.214767,largest_in_state
+690,AM,manaus,194,71,-3.086267,-60.006828,largest_in_state
+601,CE,fortaleza,196,70,-3.73882,-38.498375,largest_in_state
+520,PE,recife,232,61,-8.032627,-34.908243,largest_in_state
+699,AC,rio branco,263,53,-9.909412,-68.075787,largest_in_state
+770,TO,palmas,364,37,-10.209227,-48.327434,largest_in_state
+689,AP,macapa,431,28,0.114537,-51.233734,largest_in_state
+693,RR,boa vista,570,18,2.822212,-60.700496,largest_in_state

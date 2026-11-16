@@ -1,0 +1,8 @@
+child,foreign_key,parent,parent_key,null_child_rows,unmatched_nonnull_child_rows
+orders,customer_id,customers,customer_id,0,0
+order_items,order_id,orders,order_id,0,0
+order_items,product_id,products,product_id,0,0
+order_items,seller_id,sellers,seller_id,0,0
+order_payments,order_id,orders,order_id,0,0
+order_reviews,order_id,orders,order_id,0,0
+products,product_category_name,product_category_name_translation,product_category_name,610,13

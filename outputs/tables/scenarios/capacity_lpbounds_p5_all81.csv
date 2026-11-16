@@ -1,0 +1,8 @@
+p,capacity_q,candidates_file,n_candidates,time_limit_s,rel_gap_tolerance,status,lp_lower_bound_order_km,pct_lower_bound_above_uncapacitated
+5,,candidates.csv,81,180,0.001,LP relaxation only (lower bound),10226205.867100013,0.0
+5,8700.0,candidates.csv,81,180,0.001,LP relaxation only (lower bound),13519188.71622088,32.2
+5,9500.0,candidates.csv,81,180,0.001,LP relaxation only (lower bound),12232206.170756599,19.62
+5,10400.0,candidates.csv,81,180,0.001,LP relaxation only (lower bound),11644924.240691943,13.87
+5,13000.0,candidates.csv,81,180,0.001,LP relaxation only (lower bound),10987697.550805245,7.45
+5,17300.0,candidates.csv,81,180,0.001,LP relaxation only (lower bound),10421958.075772226,1.91
+5,20000.0,candidates.csv,81,180,0.001,LP relaxation only (lower bound),10226205.867100013,0.0

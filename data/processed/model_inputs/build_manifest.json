@@ -1,0 +1,22 @@
+{
+  "cohort": "delivered orders, purchased 2017-01-01 to 2017-12-31",
+  "region_grain": "ZIP3 (first 3 digits of ZIP5 prefix)",
+  "candidate_rule": "top 60 regions by modeled orders plus largest region in each state",
+  "regions": 839,
+  "candidates": 81,
+  "orders_modeled": 43314,
+  "orders_excluded_no_coordinate": 114,
+  "orders_excluded_inside_kept_regions": 111,
+  "orders_in_fully_lost_region": 3,
+  "fully_lost_region_ids": [
+    "734"
+  ],
+  "distance": "one-way great-circle km, R=6371.0088; candidate at its region point (self-distance 0)",
+  "max_distance_km": 3992.9,
+  "max_haversine_vs_cosine_diff_km": 9.493542909622192e-05,
+  "runtime": {
+    "python": "3.13.5",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4"
+  }
+}

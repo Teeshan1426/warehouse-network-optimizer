@@ -1,0 +1,26 @@
+{
+  "cohort_orders": 43428,
+  "zip5_in_cohort": 12036,
+  "zip5_with_coordinate": 11957,
+  "orders_with_coordinate": 43314,
+  "orders_excluded": 114,
+  "pct_orders_excluded": 0.263,
+  "zip3_regions_in_cohort": 840,
+  "zip3_regions_with_any_coordinate": 839,
+  "zip3_regions_fully_lost": 1,
+  "zip5_raw_point_spread_over_25km": 639,
+  "order_wmean_km_zip5_to_zip3_point": 13.5,
+  "order_wmedian_km": 3.66,
+  "order_wp90_km": 35.16,
+  "pct_orders_over_25km_from_zip3_point": 15.29,
+  "pct_orders_over_50km_from_zip3_point": 5.44,
+  "zip3_regions_with_max_over_100km": 82,
+  "screen_rows_removed_by_box": 27,
+  "geo_rows_raw": 1000163,
+  "geo_rows_after_exact_dedupe": 738332,
+  "runtime": {
+    "python": "3.13.5",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  }
+}

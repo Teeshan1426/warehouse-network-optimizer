@@ -1,0 +1,22 @@
+# Local environments and generated caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Source datasets: keep provenance in documentation
+data/raw/*
+!data/raw/.gitkeep
+
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local-only: row-level ledger, not for publication
+outputs/tables/coordinate_check/exclusion_ledger_zip5.csv
+
+
+# R session files
+.Rhistory
